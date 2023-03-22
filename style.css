@@ -12,14 +12,33 @@ section{
     border-radius: 10px;
     color: black;
     padding: 15px;
-    width: 600px;
+    width: 550px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.464);
 
+}input#btn{
+    padding: 8px;
+    border-radius: 5px;
+    font: bold 12pt Arial;
 }
-div{
 
+input#btn1{
+    padding: 8px;
+    border-radius: 5px;
+    font: bold 12pt Arial;
 }
+input#raio{
+    padding: 8px;
+    
+}
+input#bas{
+    padding:8px;
+}
+input#alt{
+    padding:8px ;
+}
+
+
 footer{
     color: white;
     text-align: center;

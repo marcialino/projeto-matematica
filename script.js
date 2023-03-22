@@ -6,13 +6,29 @@ function calcular(){
     var a = Number(alt.value)
     var b = Number(bas.value)
 
+    if(alt.length == 0 || bas.length == 0){
+        window.alert('Adicione os dados para continuar')
+    }else{
     var area = a*b/2
 
-    res.innerHTML += `<p style="font:bold 12pt Arial;"> A área do triângulo com altura ${a} e base ${b} é de ${area}</p>`
+    res.innerHTML += `<p style="font: bold 14pt Arial; color:#51291E;">Àrea do triângulo = ${area}</style></p>`
+    }
 
 }
 
 function calcular1(){
     var raio = window.document.getElementById('raio')
+    var r = Number(raio.value)
+    var per = 2*3.14*r
+    var p = per.toFixed(2)
+
+    var area = 3.14*r*r
+    var a = area.toFixed(2)
+
+    var res1 = window.document.getElementById('res1')
+
+    res1.innerHTML = `<p style= " font: bold 14pt Arial; color: #51291E;">Àrea do Círculo = ${a}<br/>
+    Perímetro do Círculo = ${p}</style></p>`
     
+
 }
